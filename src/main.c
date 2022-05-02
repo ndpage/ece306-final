@@ -21,6 +21,7 @@
     //Variables used for motor control
   char start_moving;
   char moving;
+  
 
 volatile unsigned char control_state[CNTL_STATE_INDEX];
 volatile unsigned int Time_Sequence;
