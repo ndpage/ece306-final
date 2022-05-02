@@ -10,7 +10,7 @@
 
 //------------------------------------------------------------------------------
 #include "macros.h"
-#include "msp430fr5739.h"
+#include "msp430.h"
 #include "functions.h"
 #include <string.h>
 // Required defines

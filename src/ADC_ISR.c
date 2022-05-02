@@ -22,7 +22,7 @@ extern unsigned int channel;
 // ADC_Right_Detector; // A00 ADC10INCH_0 - P1.0
 // ADC_Left_Detector; // A01 ADC10INCH_1 - P1.1
 // ADC_Thumb; // A03 ADC10INCH_3 - P1.3
-// ADC_Temp; // A10 ADC10INCH_10 – Temperature REF module
+// ADC_Temp; // A10 ADC10INCH_10 ï¿½ Temperature REF module
 // ADC_Bat; // A11 ADC10INCH_11 - Internal
 
 #pragma vector=ADC10_VECTOR

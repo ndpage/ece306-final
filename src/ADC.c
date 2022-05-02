@@ -23,7 +23,7 @@ void Init_ADC(void){
  ADC10CTL1 |= ADC10SHS_0; // ADC10SC bit
  ADC10CTL1 |= ADC10SHP; // SAMPCON signal sourced from sampling timer
  ADC10CTL1 &= ~ADC10ISSH; // The sample-input signal is not inverted.
- ADC10CTL1 |= ADC10DIV_0; // ADC10_B clock divider – Divide by 1.
+ ADC10CTL1 |= ADC10DIV_0; // ADC10_B clock divider ï¿½ Divide by 1.
  ADC10CTL1 |= ADC10SSEL_0; // MODCLK
  ADC10CTL1 |= ADC10CONSEQ_0; // Single-channel, single-conversion
  ADC10CTL2 = RESET_STATE; // Clear ADC10CTL2

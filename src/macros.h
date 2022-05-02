@@ -10,6 +10,9 @@ extern unsigned int Right_White;
 extern unsigned int Left_White;
 extern unsigned int Right_Black;
 extern unsigned int Left_Black;
+
+#define __MSP430FR5739__
+
 //======= Main ==========
 #define FIVE_SEC (10000*five_msec_count)
 #define ONE_AND_QTR_SEC 250
@@ -31,8 +34,6 @@ extern unsigned int Left_Black;
 // Project 7
 #define INIT 1
 
-
-
 //======= Timers ========
 #define TIMERS_TRUE 1
 #define TIME_RESET 0
@@ -49,7 +50,6 @@ extern unsigned int Left_Black;
 #define DUTY_50 5000
 #define DUTY_60 6000
 #define DUTY_70 7000
-
 
 #define ALWAYS                  (1)
 #define CNTL_STATE_INDEX        (3) // Control States

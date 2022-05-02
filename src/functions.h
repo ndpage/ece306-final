@@ -24,7 +24,7 @@ void enable_interrupts(void);
 
 // Function prototypes
 __interrupt void Timer2_B0_ISR(void);
- __interrupt void TIMER2_B1_ISR(void);
+__interrupt void TIMER2_B1_ISR(void);
 void Init_Timer_A0(void);
 void Init_Timer_B1(void);
 void Init_Timer_B2(void);
